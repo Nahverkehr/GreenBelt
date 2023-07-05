@@ -1,0 +1,56 @@
+@font-face {
+    font-family: comfortaa;
+    src: url(ttf/comfortaa.ttf);
+}
+
+@font-face {
+    font-family: simplifica;
+    src: url(ttf/simplifica.ttf);
+}
+
+@font-face {
+    font-family: ibm;
+    src: url(ttf/IBMPlexMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: agdasima;
+    src: url(ttf/Agdasima-Regular.ttf);
+}
+
+@font-face {
+    font-family: newyork;
+    src: url(ttf/NEW\ YORK.ttf);
+}
+
+* {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.headtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "arial";
+}
+
+.headtitle h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+}
+
+.headtitle b {
+    padding: 10px;
+    font-weight: 800;
+}
+
+header {
+    background-color: #b9b9b9;
+}
