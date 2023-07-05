@@ -54,3 +54,25 @@ body {
 header {
     background-color: #b9b9b9;
 }
+
+.donatebeginner {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: aliceblue;
+    width: 30%;
+    margin-right: 25px;
+    border-radius: 50px;
+    height: 700px;
+}
+
+.donatebeginner h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "comfortaa";
+    font-size: 30px;
+    padding-top: 20px;
+    
+}
