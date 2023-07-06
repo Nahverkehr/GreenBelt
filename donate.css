@@ -55,24 +55,74 @@ header {
     background-color: #b9b9b9;
 }
 
+.donatecontainer {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.donatebeginner,
+.donatestandard,
+.donatepro {
+    flex: 1;
+    margin: 60px;
+}
+
 .donatebeginner {
-    display: flexbox;
+    display: grid;
     justify-content: center;
     align-items: center;
     color: #000000;
     background-color: aliceblue;
-    width: 30%;
-    margin-right: 25px;
+    width: 15%;
     border-radius: 50px;
     height: 700px;
 }
 
 .donatebeginner h3 {
-    display: flex;
     justify-content: center;
     align-items: center;
     font-family: "comfortaa";
     font-size: 30px;
     padding-top: 20px;
     
+}
+
+.donatestandard {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: aliceblue;
+    width: 15%;
+    border-radius: 50px;
+    height: 700px;
+}
+
+.donatestandard h3 {
+    justify-content: center;
+    align-items: center;
+    font-family: "comfortaa";
+    font-size: 30px;
+    padding-top: 20px;
+    
+}
+
+.donatepro {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    background-color: aliceblue;
+    width: 15%;
+    border-radius: 50px;
+    height: 700px;
+}
+
+.donatepro h3 {
+    justify-content: center;
+    align-items: center;
+    font-family: "comfortaa";
+    font-size: 30px;
+    padding-top: 20px;
 }
